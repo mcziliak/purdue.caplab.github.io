@@ -1266,22 +1266,4 @@
 			}
 
 	}
-/* main.css */
 
-#gif-section {
-    flex: 0 0 200px; /* Fixed width for the GIF section */
-    position: relative;
-}
-
-#gif-section .gif-container {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%);
-}
-
-#gif-section .gif-container img {
-    max-width: 1in; /* Width of approximately 1 inch */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-}
