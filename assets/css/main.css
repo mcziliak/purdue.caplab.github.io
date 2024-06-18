@@ -2521,3 +2521,5 @@ input, select, textarea {
     animation: moveHorizontally 5s linear infinite; /* 5 seconds duration, infinite loop */
     height: 100%; /* Ensure the GIF maintains its aspect ratio */
 }
+
+}
