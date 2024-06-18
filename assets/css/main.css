@@ -2497,3 +2497,27 @@ input, select, textarea {
 				}
 
 	}
+@keyframes moveHorizontally {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.gif-container {
+    overflow: hidden; /* Ensure the container hides the GIF overflow */
+    position: relative; /* Set position to relative for the GIF container */
+    width: 100%; /* Ensure it takes the full width of its parent */
+    height: 150px; /* Adjust height as needed */
+    display: flex; /* Center the GIF horizontally and vertically */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gif-container img {
+    position: absolute; /* Absolute positioning to move the GIF */
+    animation: moveHorizontally 5s linear infinite; /* 5 seconds duration, infinite loop */
+    height: 100%; /* Ensure the GIF maintains its aspect ratio */
+}
