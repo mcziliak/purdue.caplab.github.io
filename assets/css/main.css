@@ -2501,7 +2501,7 @@ input, select, textarea {
     display: flex;
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-    height: 100%; /* Ensure the container takes full height of the section */
+    padding: 20px; /* Ensure the container takes full height of the section */
 }
 
 #resizable-gif {
