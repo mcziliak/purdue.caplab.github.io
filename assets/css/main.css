@@ -2515,6 +2515,7 @@ input, select, textarea {
 
 .gif-img {
     max-width: 100%; /* Ensure the GIF does not exceed its container's width */
+    max-height: 100%;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default inline styles */
     animation: slide 10s linear infinite; /* Adjust animation duration (10s in this example) */
