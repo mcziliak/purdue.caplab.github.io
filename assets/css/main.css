@@ -2497,23 +2497,8 @@ input, select, textarea {
 				}
 
 	}
-/* main.css */
-
-#gif-section {
-    flex: 0 0 200px; /* Fixed width for the GIF section */
-    position: relative;
+/* CSS to resize the GIF */
+#resizable-gif {
+    max-width: 100%; /* Limits the width to its container */
+    height: auto; /* Maintains aspect ratio */
 }
-
-#gif-section .gif-container {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%);
-}
-
-#gif-section .gif-container img {
-    width: 50px; /* Width of approximately 1 inch */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-}
-
