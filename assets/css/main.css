@@ -2509,13 +2509,17 @@ input, select, textarea {
 .gif-container {
     position: absolute; /* Position the GIF container */
     top: 50%; /* Center vertically */
-    left: 0; /* Start from the left edge of the section */
-    transform: translateY(-50%); /* Adjust for centering vertically */
-    animation: slide 10s linear infinite; /* Adjust animation duration (10s in this example) */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering both vertically and horizontally */
+}
+
+.gif-img {
+    max-width: 100%; /* Ensure the GIF does not exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
 }
 
 @keyframes slide {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
-
