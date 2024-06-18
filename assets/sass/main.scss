@@ -1270,7 +1270,7 @@
 #animated-gif {
     position: relative; /* Position relative to the viewport */
     overflow: hidden; /* Hide overflow to prevent scrolling issues */
-    height: 190px; /* Adjust height as per your design */
+    height: 200px; /* Adjust height as per your design */
     /* Add any other styling for the section as needed */
 }
 
@@ -1278,8 +1278,9 @@
 .gif-container {
     position: absolute; /* Position the GIF container */
     top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for centering both vertically and horizontally */
+    left: 0; /* Start from the left edge of the section */
+    transform: translateY(-50%); /* Adjust for centering vertically */
+    animation: slide 10s linear infinite; /* Adjust animation duration (10s in this example) */
 }
 
 .gif-img {
@@ -1289,7 +1290,6 @@
 }
 
 @keyframes slide {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(-100%); } /* Start from off-screen left */
+    100% { transform: translateX(100%); } /* Move to off-screen right */
 }
-
