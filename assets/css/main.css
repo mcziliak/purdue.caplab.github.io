@@ -2512,7 +2512,7 @@ input, select, textarea {
 }
 
 #gif-section .gif-container img {
-    max-width: 1in; /* Width of approximately 1 inch */
+    width: 50px; /* Width of approximately 1 inch */
     height: auto; /* Maintain aspect ratio */
     display: block;
 }
