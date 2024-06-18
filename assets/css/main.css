@@ -2501,7 +2501,7 @@ input, select, textarea {
 #animated-gif {
     position: relative; /* Position relative to the viewport */
     overflow: hidden; /* Hide overflow to prevent scrolling issues */
-    height: 200px; /* Adjust height as per your design */
+    height: 190px; /* Adjust height as per your design */
     /* Add any other styling for the section as needed */
 }
 
