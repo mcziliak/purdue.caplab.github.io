@@ -2500,7 +2500,7 @@ input, select, textarea {
 /* Define keyframes for animation */
 @keyframes slide {
     0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
 }
 
 /* Apply animation to the GIF container */
