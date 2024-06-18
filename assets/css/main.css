@@ -2498,7 +2498,6 @@ input, select, textarea {
 
 	}
 /* Ensure the section remains stationary vertically */
-/* Ensure the section remains stationary vertically */
 #animated-gif {
     position: relative; /* Position relative to the viewport */
     overflow: hidden; /* Hide overflow to prevent scrolling issues */
@@ -2512,16 +2511,17 @@ input, select, textarea {
     top: 50%; /* Center vertically */
     left: 0; /* Start from the left edge of the section */
     transform: translateY(-50%); /* Adjust for centering vertically */
-    animation: slide 10s linear infinite; /* Adjust animation duration (10s in this example) */
 }
 
 .gif-img {
     max-width: 100%; /* Ensure the GIF does not exceed its container's width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default inline styles */
+    animation: slide 10s linear infinite; /* Adjust animation duration (10s in this example) */
 }
 
 @keyframes slide {
-    0% { transform: translateX(-100%); } /* Start from off-screen left */
-    100% { transform: translateX(100%); } /* Move to off-screen right */
+    0% { left: -100%; } /* Start from off-screen left */
+    100% { left: 100%; } /* Move to off-screen right */
 }
+
