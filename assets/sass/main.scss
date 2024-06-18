@@ -1266,17 +1266,8 @@
 			}
 
 	}
-/* CSS to resize the GIF and center it */
-#gif-section {
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100vh; /* Adjust this to match your section height */
-}
-
 #resizable-gif {
-    max-width: 50%; /* Limits the width to its container */
+    max-width: 50%; /* Adjust the percentage to shrink the width */
     height: auto; /* Maintains aspect ratio */
 }
-
 
