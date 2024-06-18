@@ -2514,7 +2514,7 @@ input, select, textarea {
 }
 
 .gif-img {
-    max-width: 100%; /* Ensure the GIF does not exceed its container's width */
+    max-width: 90%; /* Ensure the GIF does not exceed its container's width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default inline styles */
 }
