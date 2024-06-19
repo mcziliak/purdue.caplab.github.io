@@ -1266,11 +1266,10 @@
 			}
 
 	}
-
 #resizable-gif {
     max-width: 10%; /* Adjust the percentage to shrink the width */
     height: auto; /* Maintains aspect ratio */
-    position: relative;
+    position: absolute; /* Changed to absolute for easier movement */
     animation: slide 5s linear infinite;
 }
 
@@ -1278,10 +1277,7 @@
     0% {
         left: -10%; /* Start just off the left side of the screen */
     }
-    50% {
-        left: 100%; /* Move to the right side of the screen */
-    }
     100% {
-        left: -10%; /* Start again from the left */
+        left: 110%; /* Move completely off the right side of the screen */
     }
 }
