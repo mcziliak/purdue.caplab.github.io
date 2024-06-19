@@ -1270,14 +1270,18 @@
 #resizable-gif {
     max-width: 10%; /* Adjust the percentage to shrink the width */
     height: auto; /* Maintains aspect ratio */
+    position: relative;
     animation: slide 5s linear infinite;
 }
 
 @keyframes slide {
     0% {
-        right: -10%; /* Start just off the left side of the screen */
+        left: -10%; /* Start just off the left side of the screen */
+    }
+    50% {
+        left: 100%; /* Move to the right side of the screen */
     }
     100% {
-        right: 110%; /* Move completely off the right side of the screen */
+        left: -10%; /* Start again from the left */
     }
 }
