@@ -2506,9 +2506,9 @@ input, select, textarea {
 
 @keyframes slide {
     0% {
-        left: -10%; /* Start just off the left side of the screen */
+        right: -10%; /* Start just off the left side of the screen */
     }
     100% {
-        left: 110%; /* Move completely off the right side of the screen */
+        right: 110%; /* Move completely off the right side of the screen */
     }
 }
