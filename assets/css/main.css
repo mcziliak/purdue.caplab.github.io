@@ -2498,9 +2498,9 @@ input, select, textarea {
 
 	}
 #gif-section {
-    height: 200px; /* Adjust the height as needed */
+    height: 100px; /* Adjust the height as needed */
     width: 100%; /* You can also set a specific width if needed */
-    background-color: #f0f0f0; /* Optional: Add a background color for better visibility */
+    /*background-color: #f0f0f0;*/ /* Optional: Add a background color for better visibility */
     position: relative; /* Ensure the section can contain absolutely positioned elements */
 }
 
