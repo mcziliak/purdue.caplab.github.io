@@ -2501,7 +2501,7 @@ input, select, textarea {
     max-width: 10%; /* Adjust the percentage to shrink the width */
     height: auto; /* Maintains aspect ratio */
     position: absolute; /* Changed to absolute for easier movement */
-    animation: slide 5s linear infinite;
+    animation: slide 7s linear infinite;
 }
 
 @keyframes slide {
