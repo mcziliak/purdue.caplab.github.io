@@ -2497,12 +2497,6 @@ input, select, textarea {
 				}
 
 	}
-#gif-section .container {
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    padding: 20px; /* Ensure the container takes full height of the section */
-}
 
 #resizable-gif {
     max-width: 10%; /* Adjust the percentage to shrink the width */
