@@ -2495,18 +2495,41 @@ input, select, textarea {
 				.main > .content h3 {
 					font-size: 1.25em;
 				}
-#gif-section .content .container .row .col-12 .image.fit img#resizable-gif {
-  width: 10%;
-  position: absolute;
-  left: 0;
-  animation: slide 5s linear infinite;
+#gif-section {
+  padding: 20px;
+  background-color: #f0f0f0;
 }
 
-@keyframes slide {
-  0% {
-    left: 0%;
-  }
-  100% {
-    left: -110%;
-  }
+#gif-section .content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#gif-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gif-section .row {
+  width: 100%;
+}
+
+#gif-section .col-12 {
+  width: 100%;
+  text-align: center;
+}
+
+#gif-section .image.fit {
+  display: inline-block;
+}
+
+#resizable-gif {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+#resizable-gif:hover {
+  transform: scale(1.1);
 }
