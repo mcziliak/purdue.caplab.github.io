@@ -2496,10 +2496,10 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 #gif-section .content .container .row .col-12 .image.fit img#resizable-gif {
-  width: 90%;
+  width: 10%;
   position: absolute;
   left: 0;
-  animation: slide 10s linear infinite;
+  animation: slide 5s linear infinite;
 }
 
 @keyframes slide {
