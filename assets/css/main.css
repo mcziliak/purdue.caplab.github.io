@@ -2496,3 +2496,33 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#gif-section {
+    margin: 40px 0;
+}
+
+#gif-section .gif-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gif-section .gif-section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
