@@ -1266,21 +1266,35 @@
 			}
 
 	}
-#resizable-gif {
-    max-width: 10%; /* Adjust the percentage to shrink the width */
-    height: auto; /* Maintains aspect ratio */
-    position: relative;
-    animation: slide 5s linear infinite;
+// Main Styles
+#gif-section {
+  .content {
+    .container {
+      .row {
+        .col-12 {
+          .image.fit {
+            img#resizable-gif {
+              width: 90%; // Reduce the size by 10%
+              position: absolute;
+              left: 0;
+              animation: slide 10s linear infinite;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
+// Keyframes for the sliding animation
 @keyframes slide {
-    0% {
-        left: -10%; /* Start just off the left side of the screen */
-    }
-    50% {
-        left: 100%; /* Move to the right side of the screen */
-    }
-    100% {
-        left: -10%; /* Start again from the left */
-    }
+  0% {
+    left: -100%; // Start from outside the left side of the screen
+  }
+  50% {
+    left: 100%; // Move across to the right side of the screen
+  }
+  100% {
+    left: -100%; // End outside the left side of the screen
+  }
 }
