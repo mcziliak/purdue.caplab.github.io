@@ -1274,10 +1274,10 @@
         .col-12 {
           .image.fit {
             img#resizable-gif {
-              width: 90%; // Reduce the size by 10%
+              width: 10%; // Reduce the size by 10%
               position: absolute;
               left: 0;
-              animation: slide 10s linear infinite;
+              animation: slide 5s linear infinite;
             }
           }
         }
