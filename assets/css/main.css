@@ -2495,41 +2495,4 @@ input, select, textarea {
 				.main > .content h3 {
 					font-size: 1.25em;
 				}
-#gif-section {
-  padding: 20px;
-  background-color: #ff0000;
-}
 
-#gif-section .content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#gif-section .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#gif-section .row {
-  width: 100%;
-}
-
-#gif-section .col-12 {
-  width: 100%;
-  text-align: center;
-}
-
-#gif-section .image.fit {
-  display: inline-block;
-}
-
-#resizable-gif {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.2s ease-in-out;
-}
-
-#resizable-gif:hover {
-  transform: scale(1.1);
-}
